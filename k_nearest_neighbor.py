@@ -102,6 +102,6 @@ class KNearestNeighbor():
             label = max(set(labels_relevant), key=labels_relevant.count)
             labels.append([label])
             distances = []
-        print(np.array(labels).shape)
+        #print(np.array(labels).shape)
         return np.array(labels)
         #raise NotImplementedError()
